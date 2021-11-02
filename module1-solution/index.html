@@ -24,7 +24,7 @@
         Lunch Checker</h1>
         <p>
           <label ng-for="foodString">Enter food items: </label>
-          <input type="text" ng-model="itemString" ng-class="{ok: resultOk, notOk: resultOk == false}" placeholder="list with comma separation">
+          <input type="text" placeholder="list with comma separation" ng-model="itemString" ng-class="{ok: resultOk, notOk: resultOk == false}">
           <button ng-click="checkItems();">Check if too much</button>
         </p>
         <p>
